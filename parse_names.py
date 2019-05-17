@@ -23,4 +23,3 @@ def shortest_first_name(names):
     return min([n.split(' ')[0] for n in names])
 
     
-print(shortest_first_name(NAMES))
